@@ -1,0 +1,11 @@
+baseURL = "http://blog.dddsydney.com.au/"
+languageCode = "en-us"
+title = "DDD Sydney Blog"
+theme = "hyde-hyde"
+tags = ["blog"]
+enableGitInfo = "true"
+enableEmoji = "true"
+
+[params]
+  themeColor = "theme-base-08"
+  description = "DDD Sydney is an inclusive non-profit conference for the Sydney software community & will be held on Saturday 18th August 2018."

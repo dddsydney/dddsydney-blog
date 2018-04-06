@@ -1,0 +1,155 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "cdn_name": {
+            "type": "string",
+            "metadata": {
+                "description": "The name of the CDN resource"
+            }
+        },
+        "storageAccount_name": {
+            "type": "string",
+            "metadata": {
+                "description": "The name of the storage account"
+            }
+        },
+        "endpoint_name": {
+            "type": "string",
+            "metadata": {
+                "description": "The name of the CDN endpoint"
+            }
+        },
+        "endpoint_origin": {
+            "type": "string",
+            "metadata": {
+                "description": "The path in the storage account that the CDN maps to"
+            }
+        },
+        "cdn_custom_domain": {
+            "type": "string",
+            "metadata": {
+                "description": "The custom domain to add to the CDN"
+            }
+        }
+    },
+    "variables": {
+        "endpoint_hostname": "[concat(parameters('endpoint_name'),'.blob.core.windows.net')]",
+        "cdn_origin": "[replace(variables('endpoint_hostname'), '.', '-')]"
+    },
+    "resources": [
+        {
+            "comments": "Creates a CDN profile that fronts the blob storage account",
+            "type": "Microsoft.Cdn/profiles",
+            "sku": {
+                "name": "Premium_Verizon"
+            },
+            "name": "[parameters('cdn_name')]",
+            "apiVersion": "2016-04-02",
+            "location": "[resourceGroup().location]",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "provisioningState": "Succeeded",
+                "resourceState": "Active"
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Creates the blob storage account for the static website",
+            "type": "Microsoft.Storage/storageAccounts",
+            "sku": {
+                "name": "Standard_RAGRS",
+                "tier": "Standard"
+            },
+            "kind": "Storage",
+            "name": "[parameters('storageAccount_name')]",
+            "apiVersion": "2017-10-01",
+            "location": "[resourceGroup().location]",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "networkAcls": {
+                    "bypass": "AzureServices",
+                    "virtualNetworkRules": [],
+                    "ipRules": [],
+                    "defaultAction": "Allow"
+                },
+                "supportsHttpsTrafficOnly": false,
+                "encryption": {
+                    "services": {
+                        "file": {
+                            "enabled": true
+                        },
+                        "blob": {
+                            "enabled": true
+                        }
+                    },
+                    "keySource": "Microsoft.Storage"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "comments": "Defines a CDN endpoint for the storage account",
+            "type": "Microsoft.Cdn/profiles/endpoints",
+            "name": "[concat(parameters('cdn_name'), '/', parameters('endpoint_name'))]",
+            "apiVersion": "2016-04-02",
+            "location": "[resourceGroup().location]",
+            "tags": {},
+            "scale": null,
+            "properties": {
+                "originHostHeader": "[variables('endpoint_hostname')]",
+                "isHttpAllowed": true,
+                "isHttpsAllowed": true,
+                "queryStringCachingBehavior": "NotSet",
+                "originPath": "[parameters('endpoint_origin')]",
+                "origins": [
+                    {
+                        "name": "[variables('cdn_origin')]",
+                        "properties": {
+                            "hostName": "[variables('endpoint_hostname')]",
+                            "httpPort": null,
+                            "httpsPort": null
+                        }
+                    }
+                ],
+                "contentTypesToCompress": [],
+                "isCompressionEnabled": false
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles', parameters('cdn_name'))]"
+            ]
+        },
+        {
+            "comments": "Sets up a custom domain for your endpoint",
+            "type": "Microsoft.Cdn/profiles/endpoints/customDomains",
+            "name": "[concat(parameters('cdn_name'), '/', parameters('endpoint_name'), '/', replace(parameters('cdn_custom_domain'), '.', '-'))]",
+            "apiVersion": "2016-04-02",
+            "scale": null,
+            "properties": {
+                "hostName": "[parameters('cdn_custom_domain')]"
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles', parameters('cdn_name'))]",
+                "[resourceId('Microsoft.Cdn/profiles/endpoints', parameters('cdn_name'), parameters('endpoint_name'))]"
+            ]
+        },
+        {
+            "comments": "Defines the endpoint origin for the CDN",
+            "type": "Microsoft.Cdn/profiles/endpoints/origins",
+            "name": "[concat(parameters('cdn_name'), '/', parameters('endpoint_name'), '/', variables('cdn_origin'))]",
+            "apiVersion": "2016-04-02",
+            "scale": null,
+            "properties": {
+                "hostName": "[variables('endpoint_hostname')]",
+                "httpPort": null,
+                "httpsPort": null
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles', parameters('cdn_name'))]",
+                "[resourceId('Microsoft.Cdn/profiles/endpoints', parameters('cdn_name'), parameters('endpoint_name'))]"
+            ]
+        }
+    ]
+}

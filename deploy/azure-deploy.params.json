@@ -1,0 +1,17 @@
+{
+    "cdn_name": {
+        "value": "dddsydney-blog-cdn"
+    },
+    "storageAccount_name": {
+        "value": "dddsydneyblog"
+    },
+    "endpoint_name": {
+        "value": "blog-dddsydney"
+    },
+    "endpoint_origin": {
+        "value": "/website/1"
+    },
+    "cdn_custom_domain": {
+        "value": "blog.dddsydney.com.au"
+    }
+}
