@@ -34,7 +34,7 @@
         }
     },
     "variables": {
-        "endpoint_hostname": "[concat(parameters('endpoint_name'),'.blob.core.windows.net')]",
+        "endpoint_hostname": "[concat(parameters('storageAccount_name'),'.blob.core.windows.net')]",
         "cdn_origin": "[replace(variables('endpoint_hostname'), '.', '-')]"
     },
     "resources": [

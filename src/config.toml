@@ -1,4 +1,4 @@
-baseURL = "http://blog.dddsydney.com.au/"
+baseURL = "https://blog.dddsydney.com.au/"
 languageCode = "en-us"
 title = "DDD Sydney Blog"
 theme = "hyde-hyde"
