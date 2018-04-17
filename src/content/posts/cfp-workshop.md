@@ -1,7 +1,7 @@
 ---
 title: "🗣 DDD Sydney CFP Workshop 📰"
 date: 2018-04-18T07:38:54+10:00
-draft: true
+draft: false
 ---
 
 At DDD we have always prided ourself on being a community centric event that helps people make their leap into public speaking. After all, that's how Aaron got into speaking! But whether it's your first time or your tenth writing your talk proposal is a daunting task. So this year at DDD Sydney we decided that we wanted to try and help out by holding a workshop on writing submissions.
