@@ -1,14 +1,16 @@
 ---
 title: "DDD - Design, Dev, and Data"
-date: 2018-04-23T21:00:00+10:00
-draft: true
+date: 2018-04-20T21:00:00+10:00
+draft: false
 ---
 
 Back in 2011, HP ditched it's flagging computer business to focus on software. Then member of the board Marc Andreesson and co-founder of famed tech investment firm Andreesson-Horowitz reasoned in an [article in the Wall Street Journal](https://a16z.com/2016/08/20/why-software-is-eating-the-world/) that software was eating the world.
 
 > Software is eating the wold - Marc Andreeson, WSJ 2011
 	
-As at March 31st, 2018 [the top 10 companies in the world by market cap](https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization) are occupied by 6 who are software focused, with Apple forming a contentious 7th. **Software has now _eaten_ the world**.
+As at March 31st, 2018 [the top 10 companies in the world by market cap](https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization) are occupied by 6 who are software focused, with Apple forming a contentious 7th. 
+
+_Software has now eaten the world_.
 
 **From utility to usable**
 
@@ -26,7 +28,7 @@ As these interactions bring machines closer and closer to us in terms of how the
 
 Underneath this AI, is data. No matter which particular task you're bending the will of the computer to, a set of data informs, teaches, and eventually proofs the knowledge the machine develops. We have sought to capture, store and structure data in all of the business applications we've built to date. However the game has changed as to the volume at which it is created. Imagine [running the data storage for the Large Hadron Collider](https://www.itnews.com.au/news/computing-for-the-large-hadron-collider-310769) - which creates in the order of petabytes of possible information every second. 
 
-With [AI expected to be in the majority of software created in the near future](https://www.gartner.com/newsroom/id/3763265), it is impossible to ignore.
+_With [AI expected to be in the majority of software created in the near future](https://www.gartner.com/newsroom/id/3763265), it is impossible to ignore._
 
 **What has this got to do with DDD Sydney?**
 	
