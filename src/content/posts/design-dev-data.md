@@ -1,10 +1,16 @@
+---
+title: "DDD - Design, Dev, and Data"
+date: 2018-04-23T21:00:00+10:00
+draft: true
+---
+
 Back in 2011, HP ditched it's flagging computer business to focus on software. Then member of the board Marc Andreesson and co-founder of famed tech investment firm Andreesson-Horowitz reasoned in an [article in the Wall Street Journal](https://a16z.com/2016/08/20/why-software-is-eating-the-world/) that software was eating the world.
 
 > Software is eating the wold - Marc Andreeson, WSJ 2011
 	
 As at March 31st, 2018 [the top 10 companies in the world by market cap](https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization) are occupied by 6 who are software focused, with Apple forming a contentious 7th. **Software has now _eaten_ the world**.
 
-###From utility to usable
+**From utility to usable**
 
 As we've moved through this software revolution we've learned a number of lessons about how to build better and better software. We've renovated the underlying services we build on, moving from owning our own homes to renting the house from others who maintain them for us. We've also seen a change in the way software is considered, and consumed. 
 
@@ -12,7 +18,7 @@ While the concepts have been present since the 1940's, over the last 8 years we'
 
 _You see, as software has eaten our world - it has become entirely more human._
 
-###More human than human
+**More human than human**
 
 Probably one of the more interesting, and more recent set of developments is just how much more human our interactions are becoming. No longer do we publish our software on punch cards, and despite some hold out core systems - green screens have also largely vanished. These days software exists on devices with all new interfaces - conversations, hand gestures, and in an extreme and yet unproven case, [thoughts](https://www.neuralink.com/). 
 
@@ -22,7 +28,7 @@ Underneath this AI, is data. No matter which particular task you're bending the 
 
 With [AI expected to be in the majority of software created in the near future](https://www.gartner.com/newsroom/id/3763265), it is impossible to ignore.
 
-###What has this got to do with DDD Sydney?
+**What has this got to do with DDD Sydney?**
 	
 DDD Sydney is a community run education event. While we've traditionally been entirely focused on bringing together software developers, we feel given the trends playing out in the software world it is time to change. We believe that the more we can cross pollinate the data, design and development  communities the more we will each benefit from our collective skills and the better the outcomes will be for us all. 
 
