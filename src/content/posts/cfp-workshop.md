@@ -4,6 +4,10 @@ date: 2018-04-18T07:38:54+10:00
 draft: false
 ---
 
+_Edit: We've shifted the date to the [20th of May]({{< ref "posts/cfp-workshop-update.md" >}})._
+
+---
+
 At DDD we have always prided ourself on being a community centric event that helps people make their leap into public speaking. After all, that's how Aaron got into speaking! But whether it's your first time or your tenth writing your talk proposal is a daunting task. So this year at DDD Sydney we decided that we wanted to try and help out by holding a workshop on writing submissions.
 
 On the afternoon of the 13th of May we're inviting you to come along to the Readify office and spend some time with our mentors who will share their knowledge around how to write an effective talk submission and help you stand out in the DDD Sydney voting or stand out to agenda committees of other events you are interest in submitting to.
