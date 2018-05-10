@@ -22,6 +22,7 @@ Buy your early bird tickets now - only $50: http://next.dddsydney.com.au/tickets
 - meet like-minded individuals, including other juniors!
 - explore dev, design and data
 - learn skills to further your career
+
 Find out more at http://next.dddsydney.com.au/
 
 **What to expect**
@@ -61,4 +62,4 @@ From Front-end, Back-end, Dev-Ops, Design, Data, and beyond - we are looking for
 - UX, UI, Design
 - Data
 
-Don't forget, we're holding a free CFP workshop Sunday 20 May to help you brainstorm and refine your submission. RSVP [here] (https://www.eventbrite.com.au/e/ddd-sydney-call-for-papers-workshop-tickets-45190507023)
+Don't forget, we're holding a free CFP workshop Sunday 20 May to help you brainstorm and refine your submission. RSVP [here](https://www.eventbrite.com.au/e/ddd-sydney-call-for-papers-workshop-tickets-45190507023)
