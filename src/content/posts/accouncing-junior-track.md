@@ -1,6 +1,6 @@
 ---
 title: "🎉 Announcing Junior Track 🎉"
-date: 2018-05-011T09:00:00+10:00
+date: 2018-05-11T09:00:00+10:00
 draft: false
 ---
 
