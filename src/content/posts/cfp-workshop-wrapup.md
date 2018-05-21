@@ -62,4 +62,4 @@ Unfortunately not every talk can make it into a conference, there's always the c
 
 We're hoping that this is a thing that we can do more often, at least during each years CFP!
 
-But more importantly I hope this inspires you to submit a talk, our CFP is still open for a bit longer so why not submit a talk, what have you got to loose!
+But more importantly I hope this inspires you to submit a talk, our [CFP is still open](http://next.dddsydney.com.au/cfp) so why not submit a talk, what have you got to loose!
