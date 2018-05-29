@@ -1,6 +1,6 @@
 ---
 title: "Talks I want to hear by Michelle (@_michelleerica)"
-date: 2018-05-11T09:00:00+10:00
+date: 2018-05-30T09:00:00+10:00
 draft: false
 ---
 My name is Michelle and I'm one of the junior devs organising DDD Sydney's new junior track. I'm a career changer, new to tech and keen to create an inclusive space for my fellow juniors to share, learn and meet each other.
