@@ -1,6 +1,6 @@
 ---
 title: "Meet a Speaker: Damian Brady"
-date: 2018-07-31T09:00:00+10:00
+date: 2018-07-31T12:25:26+10:00
 draft: false
 ---
 
