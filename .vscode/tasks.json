@@ -1,0 +1,56 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run",
+            "type": "process",
+            "args": [
+                "server",
+                "-w",
+                "-b",
+                "http://localhost",
+                "--source",
+                "./src",
+                "--destination",
+                "./.output",
+                "--port",
+                "4014",
+                "--bind",
+                "127.0.0.1",
+                "-D"
+            ],
+            "command": "hugo-linux",
+            "osx": {
+                "command": "hugo-mac"
+            },
+            "windows": {
+                "command": "hugo.exe"
+            }
+        },
+        {
+            "label": "new post",
+            "type": "process",
+            "command": "hugo-linux",
+            "args": [
+                "new",
+                "posts/${input:postName}.md"
+            ],
+            "osx": {
+                "command": "hugo-mac"
+            },
+            "windows": {
+                "command": "hugo.exe"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "postName",
+            "description": "Name of a new post",
+            "type": "promptString",
+            "default": ""
+        }
+    ]
+}
