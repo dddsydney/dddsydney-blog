@@ -82,4 +82,4 @@ At every conference, there's one or two talks that are personal and come from th
 
 ## Conclusion
 
-There are a variety of language techniques used to communicate a message effectively. When writing titles and abstracts for a submission, it's important to take these into consideration in addition to examining common succesful submission patterns. Be sure to checkout past DDD Sydney agendas to see these common patterns and see what works for you! Don't forget, you need to actually [submit a session](https://sessionize.com/ddd-sydney-2019/) to have any chance of being voted in! All the best and good luck!
+There are a variety of language techniques used to communicate a message more effectively. When writing titles and abstracts for a submission, it's important to take these into consideration in addition to examining common succesful submission patterns. Be sure to checkout past DDD Sydney agendas to see these common patterns and see what works for you! Don't forget, you need to actually [submit a session](https://sessionize.com/ddd-sydney-2019/) to have any chance of being voted in! All the best and good luck!
