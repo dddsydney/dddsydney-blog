@@ -1,0 +1,1 @@
+hugo.exe serve --source "%cd%\src"
