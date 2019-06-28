@@ -1,13 +1,14 @@
 ---
 title: "CFP Workshop Recap"
 date: 2019-06-28T00:00:00+10:00
-author: "Raphael Haddad"
 draft: false
 ---
+DDD Sydney's CFP (Call for Presentation) is open until the 14<sup>th</sup> of July, be sure to submit your sessions via [sessionize](https://sessionize.com/ddd-sydney-2019/) before then!
 
-On Wednesday, the DDD Sydney team ran a CFP (Call for Presentation) Workshop with the goal of helping people increase their chance of having their presentations voted into DDD Sydney. You can download the slides from [here](/cfp-workshop-2019.pdf).
+To support the community with submissions, the DDD Sydney team ran a CFP Workshop with the goal of helping people increase their chance of having their presentations voted into DDD Sydney. You can download the slides from the workshop [here](/cfp-workshop-2019.pdf).
 
- Some of the concepts that were discussed and workshopped are below.
+
+Some of the concepts that were discussed during the workshop are described below.
 
 ## Brevity
 Being concise with a title is important, people will be reviewing over 100 potential talks. Similar to an email subject, a concise title tells the reader what is the purpose of the body text quickly. A title that is long and doesn't communicate the intent of the speaker quickly, risks being rejected by a reviewer even before they've finished reading it. Ensure concise titles by getting to the point and cutting out unnecessary words.
@@ -81,4 +82,4 @@ At every conference, there's one or two talks that are personal and come from th
 
 ## Conclusion
 
-There are a variety of techniques that are used to make language communicate a message more effectively. When writing titles and abstracts for a submission, it's important to take these into consideration in addition to examining common succesful submission patterns. Be sure to checkout past DDD Sydney agendas to see these common patterns and what works for you!
+There are a variety of language techniques used to communicate a message effectively. When writing titles and abstracts for a submission, it's important to take these into consideration in addition to examining common succesful submission patterns. Be sure to checkout past DDD Sydney agendas to see these common patterns and see what works for you! Don't forget, you need to actually [submit a session](https://sessionize.com/ddd-sydney-2019/) to have any chance of being voted in! All the best and good luck!
