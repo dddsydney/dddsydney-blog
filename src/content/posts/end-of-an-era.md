@@ -22,7 +22,7 @@ In late 2015 it had become apparent that there was a real demand for the kind of
 
 By all accounts our first event went well, no one saw any of the fires that we had on the day (joking, I don't think there were any), and over the next few years we kept looking for ways to evolve the event to meet the needs of the community, introducing a junior dev track and having a career-centric track.
 
-But when 2019 came around things were looking a bit different, we struggled in pretty much every way. Some of our committee needed to step away; we struggled with sponsors; and we struggled to sell tickets. I was concerned about the event that we even questioned if it could run the event without loosing money. Thankfully, things picked up and we were able to run a successful DDD Sydney 2019 but it was down on the levels of the previous years. This was a clear setback for us as we were doing the future planning for 2020 and beyond.
+But when 2019 came around things were looking a bit different, we struggled in pretty much every way. Some of our committee needed to step away; we struggled with sponsors; and we struggled to sell tickets. I was concerned about the event that we even questioned if it could run the event without losing money. Thankfully, things picked up and we were able to run a successful DDD Sydney 2019 but it was down on the levels of the previous years. This was a clear setback for us as we were doing the future planning for 2020 and beyond.
 
 As a result we needed to stop and take stock, what was different now compared to the previous years? In 2019 we were the best prepared we'd ever been for DDD so far, nearly 6 months of planning and a long way from the first event we'd run!
 
